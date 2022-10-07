@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Player</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="main.css">
+    <!-- for responsive screen -->
+    <link rel="stylesheet" href="responsive.css">
+     <!-- font-awesome-cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!--navigation bar section-->
+	<nav>
+		<!--Music Player Logo div-->
+		<div id="music-player">
+		 <div id="music-player-logo">
+			 <img src="images/logo.jpg">
+		 </div>
+		 
+
+		 <!--Music Player Title-->
+		 <div id="music-player-name">
+             Music<br/><b>Player</b>
+		 </div>
+		</div>
+		 
+
+         <!--Search Bar div-->
+         <div id="search-bar-utility">
+		 <div id="search-bar">
+			 <form>
+				 <input type="text" placeholder="Search...">
+                  <!-- microphone icon -->
+                  <i style="margin-left: -2rem;" class="fa-solid fa-microphone"></i
+				 <!--Search Icon-->
+				 <i class="fas fa-search"></i>
+			 </form>
+		 </div>
+		
+
+         <!--Notification Bell div-->
+		 <div id="notifications">
+			 <i class="fas fa-bell"></i>
+		 </div>
+		 
+
+         <!--User Image div-->
+		 <div id="user">
+			 <img src="Images/my.jpg">
+		 </div>
+		</div>
+		
+	</nav>
+    <!--End of navigation bar section-->
+
+    <!--Main Section-->
+    <main>
+    	<!--Artist Template-->
+    	<div id="artist-template">
+    		<div id="artist-image">
+    		</div><!--Artist Details
+      >--><div id="artist-details">
+      	     <!--Artist Title-->
+      	     <div id="artist-title">
+      	     	<div>
+      	     	   <b>Dino James</b>
+      	     	   <br/>
+      	     	   <artist-type>HipHop Artist</artist-type>
+      	         </div>
+      	     	<followers>96.7k followers</followers>
+      	      </div>
+              <!--Artist Intro-->
+      	     <div id="artist-intro">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut asperiores assumenda numquam officiis. Quae animi et, eaque tenetur veritatis aut? Quidem itaque, rem iure ad doloremque est voluptatem velit laudantium!</div>
+      	     <!--End of Artist Intro-->
+      	     <!--Miscellaneous Buttons-->
+      	      <div id="artist-buttons">
+      	 	<div id="playall-button">
+                <a href="#music-bar" class="font-color"><i class="fas fa-play"></i>Play All</a>
+      	 	</div>
+      	 	<div id="follow-button">
+      	 		Follow
+      	 	</div>
+      	 </div>
+      	 <div id="tracks">
+      	 	297 Tracks | 158 Albums
+      	 </div>
+      	
+      	 </div>
+     
+    	</div>
+    	<!--End of artist template-->
+
+    	<!--Begining of artist songs-->
+    	<div id="artist-songs">
+    		<!--Song 1-->
+    		<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="Images/song-1.jpeg" alt="album image">
+                    <a style="margin-left: -3rem;" href="#music-bar" ><i class="fas fa-play"></i></a>
+    			    <div id="song-details">
+    			    	Dooriyan
+    			    	<br/>
+    			    	<author>Dinno James</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+                    <img src="Images/song-1.jpeg" alt="album image">
+                    <a style="margin-left: -3rem;" href="#music-bar" ><i class="fas fa-play"></i></a>
+    			    <div id="song-details">
+    			    	Girlfriend
+    			    	<br/>
+    			    	<author>Dinno James</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    	
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+                    <img src="Images/song-1.jpeg" alt="album image">
+                    <a style="margin-left: -3rem;" href="#music-bar" ><i class="fas fa-play"></i></a>
+    			    <div id="song-details">
+    			    	Hancock
+    			    	<br/>
+    			    	<author>Dinno James</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    	
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+                    <img src="Images/song-1.jpeg" alt="album image">
+                    <a style="margin-left: -3rem;" href="#music-bar" ><i class="fas fa-play"></i></a>
+    			    <div id="song-details">
+    			    	Dooriyan
+    			    	<br/>
+    			    	<author>Dinno James</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+                    <img src="Images/song-1.jpeg" alt="album image">
+                    <a style="margin-left: -3rem;" href="#music-bar" ><i class="fas fa-play"></i></a>
+    			    <div id="song-details">
+    			    	Dooriyan
+    			    	<br/>
+    			    	<author>Dinno James</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		
+    		<!--Song 6-->
+    		<div id="song">
+    			<div id="song-number">
+    			    06
+                    <img src="Images/song-1.jpeg" alt="album image">
+                    <a style="margin-left: -3rem;" href="#music-bar" ><i class="fas fa-play"></i></a>
+    			    <div id="song-details">
+    			    	Dooriyan
+    			    	<br/>
+    			    	<author>Dinno James</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		
+    		<!--Song 7-->
+    		<div id="song">
+    			<div id="song-number">
+    			    07
+                    <img src="Images/song-1.jpeg" alt="album image">
+                    <a style="margin-left: -3rem;" href="#music-bar" ><i class="fas fa-play"></i></a>
+    			    <div id="song-details">
+    			    	Dooriyan
+    			    	<br/>
+    			    	<author>Dinno James</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    	</div>
+    	<!--End of Song 7-->
+    </main>
+    <!--End of main section-->
+    
+    <!--Begining of Aside Section-->
+    <aside>
+    	<div id="aside-header-1">
+    		Similar Artists
+    		<h6>View All</h6>
+    	</div>
+        <!--Similar artist-->
+    	<div id="similar-artist">
+    		<div class="artist-img">
+             <img src="./images/artist-2.jpg" alt="">
+            </div>
+    		<div id="song-details">
+    			Raftaar
+    			<br/>
+    	    <author>HipHop Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div class="artist-img">
+                <img src="./images/artist-4.jpeg" alt="">
+            </div>
+    		<div id="song-details">
+    			Bohmiya
+    			<br/>
+    	    <author>Pop Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div class="artist-img">
+                <img src="./images/artist-3.jpeg" alt=""></div>
+    		<div id="song-details">
+    			Raja Kumari
+    			<br/>
+    	    <author>Pop Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+        <!--End of Similar artist-->
+    	<div id="aside-header-2">
+    		Recently Played
+    		<h6>View All</h6>
+    	</div>
+        <!--Recently Played Songs-->
+        <!--Song 1-->
+    	<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="Images/song-2.jpg" alt="album image">
+                    <a style="margin-left: -3rem;" href="#music-bar" ><i class="fas fa-play"></i></a>
+    			    <div id="song-details">
+    			    	Sway
+    			    	<br/>
+    			    	<author>Tove Styrke</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    	
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+    			    <img src="Images/song-2.jpg" alt="album image">
+                    <a style="margin-left: -3rem;" href="#music-bar" ><i class="fas fa-play"></i></a>
+    			    <div id="song-details">
+    			    	Mistakes
+    			    	<br/>
+    			    	<author>Tove Styrke</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="Images/song-2.jpg" alt="album image">
+                    <a style="margin-left: -3rem;" href="#music-bar" ><i class="fas fa-play"></i></a>
+    			    <div id="song-details">
+    			    	Say My Name 
+    			    	<br/>
+    			    	<author>Tove Styrke</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    	
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="Images/song-2.jpg" alt="album image">
+                    <a style="margin-left: -3rem;" href="#music-bar" ><i class="fas fa-play"></i></a>
+    			    <div id="song-details">
+    			    	Raaftar
+    			    	<br/>
+    			    	<author>Rafaar</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    	
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+    			    <img src="Images/song-2.jpg" alt="album image">
+                    <a style="margin-left: -3rem;" href="#music-bar" ><i class="fas fa-play"></i></a>
+    			    <div id="song-details">
+    			    	 My Mind
+    			    	<br/>
+    			    	<author>Tove Styrke</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		
+    		<!--End of recently played songs-->
+    </aside>
+    <!--End of aside-->
+
+
+
+    <footer>
+        <!--The bottom music bar which pops up when we play a music-->
+         <div id="music-bar" class="hide">
+             <!--Music Icon-->
+             <div id="music-icon">
+                  <img src="Images/song-1.jpeg" alt="music-icon">
+             </div>
+             <!--Music title-->
+             <div id="music-title">
+                 <b>Dooriyan (feat. Dinno)</b>
+                 <div id="favourite">
+                    <i class="far fa-heart"></i>
+                 </div>
+                 <div id="remove">
+                     <i class="fas fa-ban"></i>
+                 </div>
+                 <br/>
+                 <artist id="music-player-title-artist">Dinno James</artist>
+             </div>
+             <!--Play buttons-->
+             <div id="play-buttons">
+                 <i class="fas fa-random"></i>
+                 <i class="fas fa-backward"></i>
+                 <i class="fas fa-pause-circle"></i>
+                 <i class="fas fa-forward"></i>
+                 <i class="fas fa-undo-alt"></i>
+             </div>
+             <!--Music start time-->
+             <div id="start-time">
+                 0:20
+             </div>
+             <!--Music end time-->
+             <div id="end-time">
+                 5:04
+             </div>
+             <!--Begining of the progress bar-->
+             <div id="progress-bar">
+                  <div id="circle">
+                      <i class="fas fa-circle"></i>
+                 </div>
+             </div>
+             <!--Miscellaneous icons-->
+             <div id="queue">
+                 <i class="fas fa-bars"></i>
+             </div>
+             <div id="volume">
+                 <i class="fas fa-volume-up"></i>
+             </div>
+             <div id="progress-bar-volume">
+                 <div id="circle-volume">
+
+                   <i class="fas fa-circle"></i>
+                 </div>
+             </div>
+         </div>
+        </footer>
+        <!--End of footer section-->
+
+</body>
+</html>
